@@ -1,0 +1,28 @@
+.machine {
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 45px;
+	padding: 70px;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+.machine.locked {
+	background-color: #d9534f;
+	border-color: #d43f3a;
+}
+
+.machine.unlocked { 
+	background-color: #5cb85c;
+	border-color: #4cae4c;
+}
+
+.machine.unknown {
+	background-color: #ec971f;
+	border-color: #d58512;
+}
+
+.buttons {
+	text-align: center;
+}
